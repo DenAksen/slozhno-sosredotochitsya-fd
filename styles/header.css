@@ -1,0 +1,120 @@
+.header {
+  position: relative;
+  display: grid;
+  block-size: 100vb;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-rows: 0.1px 1fr min-content 1fr 0.1px;
+  padding: var(--header-padding) var(--header-padding);
+}
+
+.header__bg-decor-figure_start {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.bg-decor-figure-start {
+  inline-size: 25px;
+  block-size: 25px;
+  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color);
+}
+
+.bg-decor-figure-end {
+  inline-size: 25px;
+  block-size: 25px;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
+}
+
+.header__bg-decor-figure-end {
+  grid-row: 5;
+  grid-column: 1;
+  align-self: self-end;
+}
+
+.header__bg-decoration-text {
+  position: absolute;
+  top: 10px;
+  right: 19px;
+  color: var(--accent-color);
+}
+
+.header__bg-decoration-text::after {
+  content: "";
+  display: inline-block;
+  margin-inline-start: 10px;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 7px var(--accent-color);
+  border-radius: 50%;
+}
+
+.header__theme-menu {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: self-end;
+  align-self: center;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+}
+
+.header__theme-menu-button {
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: lowercase;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 1.5px 13px;
+  color: var(--accent-color);
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+}
+
+.header__bg-decoration {
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.bg-decoration-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.825em;
+  color: var(--header__bg-title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header__title {
+  grid-column: 1;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.29em;
+  block-size: min-content;
+  justify-content: end;
+  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 4;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--accent-color-text);
+  font-weight: 700;
+}

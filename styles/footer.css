@@ -1,0 +1,24 @@
+.footer {
+  block-size: 100vb;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  padding: var(--header-padding);
+}
+
+.footer__bg-decor-figure_start {
+  grid-row: 1;
+  justify-self: self-end;
+}
+
+.footer__bg-decor-figure_end {
+  grid-row: 3;
+  justify-self: self-start;
+}
+
+.footer__bg-decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
