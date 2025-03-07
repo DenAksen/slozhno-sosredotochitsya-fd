@@ -1,1 +1,1 @@
-https://github.com/DenAksen/slozhno-sosredotochitsya-fd#
+https://github.com/DenAksen/slozhno-sosredotochitsya-fd
