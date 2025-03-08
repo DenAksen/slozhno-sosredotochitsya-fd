@@ -6,7 +6,7 @@
 
 :root.theme-dark {
   --bg-img: url(../images/cover-image-dark.png);
-  --header__bg-title-color: rgba(219, 0, 255, 1);
+  --header-bg-title-color: rgba(219, 0, 255, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --text-color: rgba(241, 178, 206, 1);
   --accent-color-text: rgba(0, 0, 40, 1);
@@ -17,7 +17,7 @@
 }
 
 .theme-dark .decor-link {
-  color: var(--accent-color);
+  color: var(--color-link);
 }
 
 .theme-dark .header__theme-menu-button:focus-visible {
@@ -25,7 +25,7 @@
 }
 
 .theme-dark .decor-link:focus-visible {
-  border-color: var(--accent-color);
+  border-color: var(--color-link);
 }
 
 .theme-dark .header__bg-decoration-text {

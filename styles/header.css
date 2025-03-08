@@ -76,6 +76,12 @@
   color: var(--accent-color);
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid var(--button-hover-color);
+}
+
+
+
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--accent-color);
@@ -96,7 +102,7 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825em;
-  color: var(--header__bg-title-color);
+  color: var(--header-bg-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
