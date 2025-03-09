@@ -35,15 +35,15 @@
   }
 
   /*Main*/
-  .layout-column {
+  .layout-main {
     grid-template-columns: 32% 1fr;
   }
 
-  .layout-column .content__main-block {
+  .layout-main .content__main-block {
     grid-column: 2;
   }
 
-  .layout-row .content__title {
+  .layout-additional .content__title {
     max-inline-size: 20vi;
   }
 
@@ -88,12 +88,12 @@
     flex-direction: row;
   }
 
-  .layout-row {
+  .layout-additional {
     grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .layout-row .content__title {
+  .layout-additional .content__title {
     grid-column: 1 / -1;
     max-inline-size: 30vi;
   }
