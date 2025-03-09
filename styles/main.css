@@ -24,7 +24,7 @@
 }
 
 .content__title {
-  color: var(--accent-color);
+  color: var(--title-color);
   font-weight: 700;
 }
 

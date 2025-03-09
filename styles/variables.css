@@ -4,7 +4,7 @@
 */
 
 :root {
-  --bg-color: rgba(0, 0, 40, 1);
+  --bg-color: #000028;
   --bg-img: url(../images/cover-image-dark.png);
   --main-font-family: "IBM Plex mono";
   --header-bg-title-color: rgba(219, 0, 255, 1);
@@ -16,5 +16,8 @@
   --content-padding: 0 10px 10px;
   --header-padding: 10px;
   --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-focus-color: rgba(255, 0, 112, 1);
   --color-link: rgba(241, 178, 206, 1);
+  --title-color: rgba(255, 0, 112, 1);
+  --bg-decor-display: block;
 }

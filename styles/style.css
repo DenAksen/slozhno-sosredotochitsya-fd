@@ -3,6 +3,7 @@
   font-family: var(--main-font-family), monospace;
   font-size: 18px;
   font-weight: 400;
+  background-color: var(--bg-color);
   background-image: var(--bg-img);
   background-position: center;
   background-size: cover;
@@ -13,16 +14,16 @@
 }
 
 .decor-link {
-  color: var(--color-link);
+  color: var(--text-color);
   text-shadow: 2px 1px var(--accent-color);
   text-decoration: none;
 }
 
 .decor-link:hover {
-  text-decoration: underline;
+  border: 1px solid var(--text-color);
 }
 
 .decor-link:focus-visible {
   outline: none;
-  border: 1px solid var(--color-link);
+  border-bottom: 1px solid var(--text-color);
 }
