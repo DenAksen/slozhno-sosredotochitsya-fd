@@ -48,7 +48,7 @@
   width: 9px;
   height: 9px;
   background-color: var(--accent-color);
-  box-shadow: 0 0 7px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
   border-radius: 50%;
 }
 
@@ -75,7 +75,7 @@
   background-color: transparent;
   text-align: center;
   padding: 1.5px 13px;
-  color: var(--accent-color);
+  color: var(--title-color);
 }
 
 .header__theme-menu-button:hover {
